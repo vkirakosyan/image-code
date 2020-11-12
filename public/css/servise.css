@@ -1,0 +1,23 @@
+.srvise-list li{
+	position: relative;
+} 
+.srvise-list li .price-block{
+	position: absolute;
+	right: 90px;
+	top: 0px;
+} 
+
+#servises ul {
+    color:#3e2715;
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#servises ul .price,  #servises ul .valiut{
+    font-size:16px;
+    color: #b5651d;
+}
+#servises ul .name{
+	width: 60%;
+    display: inherit;
+}

@@ -1,0 +1,125 @@
+
+.card img{
+	width: 100%;
+
+}
+.card p{
+	height: 200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.imgedit{
+	display: block;
+    width: 200px;
+}
+.buttonedit{
+	margin-bottom: 40px;
+
+}
+.card img.team_portfolio{
+	width: 30%
+}
+.adminbody >ul{
+	padding: 40px;
+	padding-bottom: 10px;
+	margin:0 20px;
+	margin-bottom:10px;
+}
+#allevents>ul{
+	margin:0 20px;
+	margin-bottom:10px;
+}
+/*footer*/
+
+footer{
+	height: 5vw;
+	background: linear-gradient(to right, #ad8969 , #442b18);
+	margin-top: 20px;
+}
+#footerBar >button{
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	width: 30px;
+    height: 60px;
+    background: #8a5e327a;
+    border: 1px #8a5e32c2 solid;
+    padding: 0px;
+}
+#footerBar >button:hover{
+ 	background: #96612bba;
+}
+#footerBar >button>span{
+	font-size: 24px;
+}
+#footercontent .href_class img{
+		width: 20px;
+		height: 20px;
+}
+#footercontent {
+	height: 90px;
+}
+.product_info_img{
+	height: 400px;
+
+}
+#footerBar >button:hover>span{
+	color:#fff;
+}
+a{
+	color:#000;
+}
+a:hover, a:focus{
+	color:#ad8969;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	color:#442b18;
+}
+
+.panel img{
+	width:100%;
+}
+
+#dashbord_text{
+	margin-bottom: 200px;
+}
+
+.tabs-left > .nav-tabs {
+	border-bottom: 0;
+  }
+  
+  .tabs-left > .nav-tabs > li {
+	float: none;
+  }
+  
+  .tabs-left > .nav-tabs > li > a {
+	min-width: 74px;
+	margin-right: 0;
+	margin-bottom: 3px;
+  }
+  
+  .tabs-left > .nav-tabs {
+	float: left;
+	margin-right: 19px;
+	border-right: 1px solid #ddd;
+  }
+  
+  .tabs-left > .nav-tabs > li > a {
+	margin-right: -1px;
+	-webkit-border-radius: 4px 0 0 4px;
+	   -moz-border-radius: 4px 0 0 4px;
+			border-radius: 4px 0 0 4px;
+  }
+  
+  .tabs-left > .nav-tabs > li > a:hover,
+  .tabs-left > .nav-tabs > li > a:focus {
+	border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  }
+  
+  .tabs-left > .nav-tabs .active > a,
+  .tabs-left > .nav-tabs .active > a:hover,
+  .tabs-left > .nav-tabs .active > a:focus {
+	border-color: #ddd transparent #ddd #ddd;
+	*border-right-color: #ffffff;
+  }
